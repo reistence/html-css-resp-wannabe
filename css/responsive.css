@@ -47,3 +47,11 @@
     margin: 0;
   }
 }
+
+/* BONUS Sopra i 768px e fino ai 1160px 
+Anche se sul mio browser non esce nessuna scrollbar orizzontale */
+@media screen and (min-width: 789px) and (max-width: 1160px) {
+  .container {
+    width: 95%;
+  }
+}
